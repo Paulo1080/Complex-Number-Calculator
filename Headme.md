@@ -1,1 +1,1 @@
-código simples de uma calculadora de número complexos em c++
+código simples de uma calculadora de número complexos em c++ (não orientado a objeto).

@@ -63,14 +63,10 @@ int main()
         valores z;
         z=inserir_valores();
         cout<<"\nModulo = "<<calc_mod(z);
-
-
-
     }else if(o==3){
         valores z;
         z=inserir_valores();
         cout<<"O valor do argumento eh: "<<calc_arg(z)<<" graus";
-
     }else if(o==4){
         valores z,i;
         z=inserir_valores();
@@ -108,7 +104,6 @@ int main()
         valores z,i;
         z=inserir_valores();
         i=log_comp(z);
-
     }else if(o==12){
         valores z,i;
         z=inserir_valores();
@@ -131,7 +126,6 @@ int main()
         z=inserir_valores();
         i=tg_comp(z);
     }
-
     }
     return 0;
 }
@@ -151,10 +145,6 @@ int main()
         v.x3=z;
         v.x4=k;
         return v;
-
-
-
-
     }
     valores inserir_valores(){
         valores v;
@@ -167,8 +157,6 @@ int main()
         v.x2=y;
         return v;
 }
-
-
     void calc_potencia(){
 
     int n,r=0;
@@ -211,15 +199,11 @@ int main()
         }
 
         return r;
-
         }
-
         valores calc_conj(valores z){
             z.x1=z.x1;
             z.x2=z.x2*(-1);
             return z;
-
-
         }
         void escolher_saida(valores i){
         int e;
@@ -241,8 +225,6 @@ int main()
             z.x1=z.x1*k;
             z.x2=z.x2*k;
             return z;
-
-
         }
         valores soma_comp(valores z){
         z.x1=z.x1+z.x3;
@@ -452,10 +434,6 @@ int main()
                 cout<<"sen(z)= "<<calc_mod(z)<<" . cis("<<(calc_arg(z)*PI)/180<<")";
             }
         }
-
-
-
-
             valores cos_comp(valores z){
 
             int e;
@@ -526,8 +504,6 @@ int main()
             cout<<"\nz="<<i<<" . cis("<<j<<")";
 
         }
-
-
             }
 
 
